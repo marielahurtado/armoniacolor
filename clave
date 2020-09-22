@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE>Se necesita clave</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function Saltar(pal){
+if (pal=='sesamo'){window.location="https://www.youtube.com/watch?v=NiGT08q7DHc"}
+else {alert ('Respuesta equivocada')}
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+<FORM>
+<P>Introduce la palabra clave (es sesamo)</P>
+<p><INPUT TYPE="Password" NAME="palclave" SIZE=25 VALUE="">
+<INPUT TYPE="button" VALUE="Acceder" onClick="Saltar(this.form.palclave.value)"></P>
+</FORM>
+</BODY>
+</HTML>
